@@ -17,7 +17,7 @@ export default function Profile() {
 
       try {
         const response = await axios.get(
-          'http://localhost:5000/api/auth/profile',
+          'https://mern-auth-backend-4mhs.onrender.com',
           {
             headers: {
               Authorization: `Bearer ${token}`,
